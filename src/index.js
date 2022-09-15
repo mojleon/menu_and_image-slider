@@ -8,4 +8,3 @@ const is = new imageslider();
 is.log();
 
 m.setup();
-m.log();
