@@ -7,6 +7,7 @@ export default class menu {
 
     setup() {
         this.createMenu();
+        this.createMenu();
     }
 
     createMenu() {
