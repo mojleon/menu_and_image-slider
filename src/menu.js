@@ -11,10 +11,9 @@ export default class menu {
 
     createMenu() {
         const nav = document.createElement("nav");
-        nav.innerHTML = this.createHrefList() + this.createHamburgerButton();
-        nav.getElementsByTagName("ul")[0].style.display = "none";
+        nav.innerHTML = this.createHrefList();
+        nav.appendChild(this.createHamburgerButton());
         this.body.appendChild(nav);
-
         this.hamburgerButtonEventListener(nav);
     }
 
@@ -34,22 +33,28 @@ export default class menu {
     }
 
     createHamburgerButton() {
-        const hamburgerButton = `<img src="${hamburgerbuttonsvg}" id="hamburgerbutton"/>`
-        return hamburgerButton
+        const menuBut = document.createElement("div");
+        menuBut.classList.add("menu-btn");
+        const menuBtnBurger = document.createElement("div");
+        menuBtnBurger.classList.add("menu-btn__burger");
+        menuBut.appendChild(menuBtnBurger);
+        return menuBut
     }
 
     hamburgerButtonEventListener(nav) {
-        const id = nav.querySelector("#hamburgerbutton");
+        const id = nav.querySelector(".menu-btn");
         id.addEventListener("click", (e) => {
+            this.toggleHamburgerButton(nav);
             this.toggleHrefs(nav);
         })
     }
 
-    toggleHrefs(nav) {
-        let navDisplay = nav.getElementsByTagName("ul")[0].style.display;
+    toggleHamburgerButton(nav) {
+        nav.querySelector(".menu-btn").classList.toggle("open");
+    }
 
-        if(navDisplay == 'none') return nav.getElementsByTagName("ul")[0].style.display = 'inline'
-        nav.getElementsByTagName("ul")[0].style.display = 'none';
+    toggleHrefs(nav) {
+        nav.getElementsByTagName("ul")[0].classList.toggle("open");
     }
 
     log() {

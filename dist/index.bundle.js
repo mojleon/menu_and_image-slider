@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    padding: 0;\\n    margin: 0;\\n}\\n\\nnav {\\n    background-color: #333;\\n    padding: 20px;\\n    position: relative;\\n}\\n\\nnav ul {\\n    margin: 0;\\n    padding-left: 0;\\n}\\n\\nnav li {\\n    list-style-type: none;\\n}\\n\\nnav a {\\n    color: white;\\n    text-decoration: none;\\n}\\n\\nnav a:hover {\\n    color: yellowgreen;\\n}\\n\\nnav img {\\n    position: absolute;\\n    top: 5px;\\n    right: 5px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-demo/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n    margin: 0;\\n    padding: 0;\\n    box-sizing: border-box;\\n}\\n\\nbody {\\n    padding: 0;\\n    margin: 0;\\n    font-family: Arial, Helvetica, sans-serif;\\n}\\n\\nnav {\\n    background-color: #333;\\n    padding: 20px;\\n    position: relative;\\n}\\n\\nnav ul {\\n    opacity: 0;\\n    margin-top: -60px;\\n    padding-left: 0;\\n    transition: all .5s ease-in-out;\\n}\\n\\nnav img.closed-hamburgerbutton {\\n    display: block;\\n    position: absolute;\\n    top: 20px;\\n    right: 20px;\\n    width: 30px;\\n    height: 30px;\\n    cursor: pointer;\\n}\\n\\nnav ul.open {\\n    opacity: 1;\\n    display: block;\\n    margin-top: 0px;\\n    transition: all .5s ease-in-out;\\n}\\n\\nnav li {\\n    list-style-type: none;\\n}\\n\\nnav a {\\n    color: white;\\n    text-decoration: none;\\n}\\n\\nnav a:hover {\\n    color: yellowgreen;\\n}\\n\\nnav .menu-btn {\\n    position: absolute;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    \\n    top: 10px;\\n    right: 5px;\\n\\n    width: 20px;\\n    height: 20px;\\n\\n    cursor: pointer;\\n    transition: all .5s ease-in-out;\\n}\\n\\nnav .menu-btn__burger {\\n    width: 100%;\\n    height: 2px;\\n    background-color: white;\\n    display: block;\\n    margin: 5px 0;\\n    border-radius: 5px;\\n    transition: all .5s ease-in-out;\\n}\\n\\nnav .menu-btn__burger::before,\\nnav .menu-btn__burger::after {\\n    content: \\\"\\\";\\n    width: 100%;\\n    height: 2px;\\n    background-color: white;\\n    display: block;\\n    border-radius: 5px;\\n    transition: all .5s ease-in-out;\\n}\\n\\nnav .menu-btn__burger::before {\\n    transform: translateY(-6px);\\n}\\n\\nnav .menu-btn__burger::after {\\n    transform: translateY(4px);\\n}\\n\\n/* ANIMATION */\\nnav .menu-btn.open .menu-btn__burger {\\n    transform: translateX(-10px);\\n    background-color: transparent;\\n}\\n\\nnav .menu-btn.open .menu-btn__burger::before {\\n    transform: rotate(45deg) translate(7px, -7px);\\n}\\n\\nnav .menu-btn.open .menu-btn__burger::after {\\n    transform: rotate(-45deg) translate(9px, 6px);\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-demo/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _imageslider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imageslider */ \"./src/imageslider.js\");\n\n\n\n\nasync function getComponent() {\n  const element = document.createElement(\"div\");\n  const { default: _ } = await __webpack_require__.e(/*! import() */ \"vendors-node_modules_lodash_lodash_js\").then(__webpack_require__.t.bind(__webpack_require__, /*! lodash */ \"./node_modules/lodash/lodash.js\", 23));\n  element.innerHTML = _.join([\"Hello\", \"webpack\"], \" \");\n  return element;\n}\ngetComponent().then((component) => {\n  document.body.appendChild(component);\n});\n\nconst m = new _menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nconst is = new _imageslider__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n\nis.log();\n\nm.setup();\nm.log();\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _imageslider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imageslider */ \"./src/imageslider.js\");\n\n\n\n\nconst m = new _menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nconst is = new _imageslider__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n\nis.log();\n\nm.setup();\nm.log();\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _hamburger_button_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hamburger-button.svg */ \"./src/hamburger-button.svg\");\n\n\nclass menu {\n    constructor() {\n        this.body = document.getElementsByTagName(\"body\")[0]\n    }\n\n    setup() {\n        this.createMenu();\n    }\n\n    createMenu() {\n        const nav = document.createElement(\"nav\");\n        nav.innerHTML = this.createHrefList() + this.createHamburgerButton();\n        nav.getElementsByTagName(\"ul\")[0].style.display = \"none\";\n        this.body.appendChild(nav);\n\n        this.hamburgerButtonEventListener(nav);\n    }\n\n    createHrefList() {\n        return `\n            <ul>\n                <li>\n                    <a href=\"#/home\">HOME</a>\n                </li>\n                <li>\n                    <a href=\"#/about\">ABOUT</a>\n                </li>\n                <li>\n                    <a href=\"#/contact\">CONTACT</a>\n                </li>\n            </ul>`\n    }\n\n    createHamburgerButton() {\n        const hamburgerButton = `<img src=\"${_hamburger_button_svg__WEBPACK_IMPORTED_MODULE_0__}\" id=\"hamburgerbutton\"/>`\n        return hamburgerButton\n    }\n\n    hamburgerButtonEventListener(nav) {\n        const id = nav.querySelector(\"#hamburgerbutton\");\n        id.addEventListener(\"click\", (e) => {\n            this.toggleHrefs(nav);\n        })\n    }\n\n    toggleHrefs(nav) {\n        let navDisplay = nav.getElementsByTagName(\"ul\")[0].style.display;\n\n        if(navDisplay == 'none') return nav.getElementsByTagName(\"ul\")[0].style.display = 'inline'\n        nav.getElementsByTagName(\"ul\")[0].style.display = 'none';\n    }\n\n    log() {\n        console.log('menu log');\n    }\n}\n\n//# sourceURL=webpack://webpack-demo/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _hamburger_button_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hamburger-button.svg */ \"./src/hamburger-button.svg\");\n\n\nclass menu {\n    constructor() {\n        this.body = document.getElementsByTagName(\"body\")[0]\n    }\n\n    setup() {\n        this.createMenu();\n    }\n\n    createMenu() {\n        const nav = document.createElement(\"nav\");\n        nav.innerHTML = this.createHrefList();\n        nav.appendChild(this.createHamburgerButton());\n        this.body.appendChild(nav);\n        this.hamburgerButtonEventListener(nav);\n    }\n\n    createHrefList() {\n        return `\n            <ul>\n                <li>\n                    <a href=\"#/home\">HOME</a>\n                </li>\n                <li>\n                    <a href=\"#/about\">ABOUT</a>\n                </li>\n                <li>\n                    <a href=\"#/contact\">CONTACT</a>\n                </li>\n            </ul>`\n    }\n\n    createHamburgerButton() {\n        const menuBut = document.createElement(\"div\");\n        menuBut.classList.add(\"menu-btn\");\n        const menuBtnBurger = document.createElement(\"div\");\n        menuBtnBurger.classList.add(\"menu-btn__burger\");\n        menuBut.appendChild(menuBtnBurger);\n        return menuBut\n    }\n\n    hamburgerButtonEventListener(nav) {\n        const id = nav.querySelector(\".menu-btn\");\n        id.addEventListener(\"click\", (e) => {\n            this.toggleHamburgerButton(nav);\n            this.toggleHrefs(nav);\n        })\n    }\n\n    toggleHamburgerButton(nav) {\n        nav.querySelector(\".menu-btn\").classList.toggle(\"open\");\n    }\n\n    toggleHrefs(nav) {\n        nav.getElementsByTagName(\"ul\")[0].classList.toggle(\"open\");\n    }\n\n    log() {\n        console.log('menu log');\n    }\n}\n\n//# sourceURL=webpack://webpack-demo/./src/menu.js?");
 
 /***/ }),
 
@@ -165,22 +165,16 @@ eval("module.exports = __webpack_require__.p + \"35a1d0f697b153717535.svg\";\n\n
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
 /******/ 			id: moduleId,
-/******/ 			loaded: false,
+/******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -195,36 +189,6 @@ eval("module.exports = __webpack_require__.p + \"35a1d0f697b153717535.svg\";\n\n
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/create fake namespace object */
-/******/ 	(() => {
-/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
-/******/ 		var leafPrototypes;
-/******/ 		// create a fake namespace object
-/******/ 		// mode & 1: value is a module id, require it
-/******/ 		// mode & 2: merge all properties of value into the ns
-/******/ 		// mode & 4: return value when already ns object
-/******/ 		// mode & 16: return value when it's Promise-like
-/******/ 		// mode & 8|1: behave like require
-/******/ 		__webpack_require__.t = function(value, mode) {
-/******/ 			if(mode & 1) value = this(value);
-/******/ 			if(mode & 8) return value;
-/******/ 			if(typeof value === 'object' && value) {
-/******/ 				if((mode & 4) && value.__esModule) return value;
-/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
-/******/ 			}
-/******/ 			var ns = Object.create(null);
-/******/ 			__webpack_require__.r(ns);
-/******/ 			var def = {};
-/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
-/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
-/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
-/******/ 			}
-/******/ 			def['default'] = () => (value);
-/******/ 			__webpack_require__.d(ns, def);
-/******/ 			return ns;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -234,28 +198,6 @@ eval("module.exports = __webpack_require__.p + \"35a1d0f697b153717535.svg\";\n\n
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/ensure chunk */
-/******/ 	(() => {
-/******/ 		__webpack_require__.f = {};
-/******/ 		// This file contains only the entry chunk.
-/******/ 		// The chunk loading function for additional chunks
-/******/ 		__webpack_require__.e = (chunkId) => {
-/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
-/******/ 				__webpack_require__.f[key](chunkId, promises);
-/******/ 				return promises;
-/******/ 			}, []));
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/get javascript chunk filename */
-/******/ 	(() => {
-/******/ 		// This function allow to reference async chunks
-/******/ 		__webpack_require__.u = (chunkId) => {
-/******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + ".bundle.js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -276,52 +218,6 @@ eval("module.exports = __webpack_require__.p + \"35a1d0f697b153717535.svg\";\n\n
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/load script */
-/******/ 	(() => {
-/******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "webpack-demo:";
-/******/ 		// loadScript function to load a script via script tag
-/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
-/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
-/******/ 			var script, needAttach;
-/******/ 			if(key !== undefined) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				for(var i = 0; i < scripts.length; i++) {
-/******/ 					var s = scripts[i];
-/******/ 					if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
-/******/ 				}
-/******/ 			}
-/******/ 			if(!script) {
-/******/ 				needAttach = true;
-/******/ 				script = document.createElement('script');
-/******/ 		
-/******/ 				script.charset = 'utf-8';
-/******/ 				script.timeout = 120;
-/******/ 				if (__webpack_require__.nc) {
-/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
-/******/ 				}
-/******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
-/******/ 				script.src = url;
-/******/ 			}
-/******/ 			inProgress[url] = [done];
-/******/ 			var onScriptComplete = (prev, event) => {
-/******/ 				// avoid mem leaks in IE.
-/******/ 				script.onerror = script.onload = null;
-/******/ 				clearTimeout(timeout);
-/******/ 				var doneFns = inProgress[url];
-/******/ 				delete inProgress[url];
-/******/ 				script.parentNode && script.parentNode.removeChild(script);
-/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
-/******/ 				if(prev) return prev(event);
-/******/ 			}
-/******/ 			;
-/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
-/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
-/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
-/******/ 			needAttach && document.head.appendChild(script);
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -330,15 +226,6 @@ eval("module.exports = __webpack_require__.p + \"35a1d0f697b153717535.svg\";\n\n
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/node module decorator */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nmd = (module) => {
-/******/ 			module.paths = [];
-/******/ 			if (!module.children) module.children = [];
-/******/ 			return module;
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -360,96 +247,6 @@ eval("module.exports = __webpack_require__.p + \"35a1d0f697b153717535.svg\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		// no baseURI
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"index": 0
-/******/ 		};
-/******/ 		
-/******/ 		__webpack_require__.f.j = (chunkId, promises) => {
-/******/ 				// JSONP chunk loading for javascript
-/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
-/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
-/******/ 		
-/******/ 					// a Promise means "currently loading".
-/******/ 					if(installedChunkData) {
-/******/ 						promises.push(installedChunkData[2]);
-/******/ 					} else {
-/******/ 						if(true) { // all chunks have JS
-/******/ 							// setup Promise in chunk cache
-/******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
-/******/ 							promises.push(installedChunkData[2] = promise);
-/******/ 		
-/******/ 							// start chunk loading
-/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
-/******/ 							// create error before stack unwound to get useful stacktrace later
-/******/ 							var error = new Error();
-/******/ 							var loadingEnded = (event) => {
-/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
-/******/ 									installedChunkData = installedChunks[chunkId];
-/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
-/******/ 									if(installedChunkData) {
-/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
-/******/ 										var realSrc = event && event.target && event.target.src;
-/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
-/******/ 										error.name = 'ChunkLoadError';
-/******/ 										error.type = errorType;
-/******/ 										error.request = realSrc;
-/******/ 										installedChunkData[1](error);
-/******/ 									}
-/******/ 								}
-/******/ 							};
-/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
-/******/ 						} else installedChunks[chunkId] = 0;
-/******/ 					}
-/******/ 				}
-/******/ 		};
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
-/******/ 			var [chunkIds, moreModules, runtime] = data;
-/******/ 			// add "moreModules" to the modules object,
-/******/ 			// then flag all "chunkIds" as loaded and fire callback
-/******/ 			var moduleId, chunkId, i = 0;
-/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
-/******/ 				for(moduleId in moreModules) {
-/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
-/******/ 					}
-/******/ 				}
-/******/ 				if(runtime) var result = runtime(__webpack_require__);
-/******/ 			}
-/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
-/******/ 			for(;i < chunkIds.length; i++) {
-/******/ 				chunkId = chunkIds[i];
-/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 					installedChunks[chunkId][0]();
-/******/ 				}
-/******/ 				installedChunks[chunkId] = 0;
-/******/ 			}
-/******/ 		
-/******/ 		}
-/******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkwebpack_demo"] = self["webpackChunkwebpack_demo"] || [];
-/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
-/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
