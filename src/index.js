@@ -5,6 +5,5 @@ import imageslider from "./imageslider";
 const m = new menu();
 const is = new imageslider();
 
-is.log();
-
 m.setup();
+is.setup();
