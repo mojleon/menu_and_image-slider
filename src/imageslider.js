@@ -9,7 +9,7 @@ export default class imageslider {
     div.innerHTML = this.createSlider();
     this.body.appendChild(div);
 
-    this.hideImages();
+    // this.hideImages();
     this.sliderControls();
   }
 
