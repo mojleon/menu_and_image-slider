@@ -9,7 +9,7 @@ export default class imageslider {
     div.innerHTML = this.createSlider();
     this.body.appendChild(div);
 
-    // this.hideImages();
+    this.hideImages();
     this.sliderControls();
   }
 
@@ -36,8 +36,8 @@ export default class imageslider {
                 </div>
             </div>
             <div class="slider__controls">
-                <button class="slider__control" data-direction="prev">Prev</button>
-                <button class="slider__control" data-direction="next">Next</button>
+                <button class="slider__control" data-direction="prev"><</button>
+                <button class="slider__control" data-direction="next">></button>
             </div>`;
   }
 

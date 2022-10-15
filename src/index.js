@@ -8,5 +8,5 @@ const m = new menu(e);
 const is = new imageslider();
 
 m.setup();
-// is.setup();
+is.setup();
 e.changeCSSScreenSize();
