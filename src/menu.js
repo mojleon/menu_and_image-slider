@@ -53,7 +53,7 @@ export default class menu {
     return `
             <ul class="menu__list">
                 <li class="menu__item"> 
-                    <a href="#" class="menu__link">
+                    <a href="#/home" class="menu__link">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="24" height="24"
                     viewBox="0 0 172 172"
@@ -62,7 +62,7 @@ export default class menu {
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#/about" class="menu__link">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="24" height="48"
                     viewBox="0 0 24 24"
@@ -71,7 +71,7 @@ export default class menu {
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#/contact" class="menu__link">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 473.806 473.806" style="enable-background:new 0 0 473.806 473.806;" xml:space="preserve">
                  <g>
@@ -103,7 +103,7 @@ export default class menu {
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#/airplay" class="menu__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18 22H6L12 16L18 22ZM7 19H3C1.89543 19 1 18.1046 1 17V5C1 3.89543 1.89543 3 3 3H21C22.1046 3 23 3.89543 23 5V17C23 18.1046 22.1046 19 21 19H17V17H21V5H3V17H7V19Z" fill="#2E3A59"/>
 </svg>
@@ -111,7 +111,7 @@ export default class menu {
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#/chart" class="menu__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M21 21H4C3.44772 21 3 20.5523 3 20V3H5V19H21V21ZM8.373 16L7 14.656L11.856 9.9C12.2383 9.52848 12.8467 9.52848 13.229 9.9L15.456 12.081L19.627 8L21 9.344L16.144 14.1C15.7617 14.4715 15.1533 14.4715 14.771 14.1L12.543 11.918L8.374 16H8.373Z" fill="#2E3A59"/>
 </svg>
@@ -119,7 +119,7 @@ export default class menu {
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">
+                    <a href="#/calendar" class="menu__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#2E3A59"/>
 </svg>
