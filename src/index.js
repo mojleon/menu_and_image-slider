@@ -1,4 +1,4 @@
-import css from "./style.css";
+import "./style.css";
 import menu from "./menu";
 import imageslider from "./imageslider";
 import event from "./event";
