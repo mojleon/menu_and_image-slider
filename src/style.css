@@ -275,13 +275,12 @@ nav.nav__open .profile-picture div {
   nav {
     width: 100%;
     height: 60px;
-    border-radius: 5px;
     padding: 0;
     margin-left: 0;
 
     border-top-right-radius: 0;
-    border-end-end-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-end-end-radius: 6px;
+    border-bottom-left-radius: 6px;
   }
 
   nav .logo,
@@ -294,9 +293,14 @@ nav.nav__open .profile-picture div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 1px;
     top: 0;
     width: 100%;
     font-size: 1rem;
+  }
+
+  nav .menu__item {
+    margin-left: 0;
   }
 
   nav .menu__item span {
@@ -317,36 +321,19 @@ nav.nav__open .profile-picture div {
     height: 20px;
   }
 
+  nav .menu__item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   nav .menu__item:hover {
     overflow: hidden;
     background-color: #a8e821;
   }
 
   .slider {
-    position: block;
+    scale: 0.5;
     margin-left: 0;
-    max-width: 200px;
-    height: 500px;
-    overflow: hidden;
-    display: flex;
-    margin-left: calc(50% - 100px);
-  }
-
-  .slider__slide {
-    border-radius: 20px;
-  }
-
-  .slider__slides {
-    z-index: -1;
-  }
-
-  .slider img {
-    position: block;
-    height: 100%;
-    border-radius: 0;
-  }
-
-  .slider__controls {
-    margin-left: -60px;
   }
 }
