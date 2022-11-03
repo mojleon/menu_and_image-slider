@@ -63,6 +63,7 @@ nav .menu__item a {
 }
 
 nav .menu__item span {
+  padding-left: 20px;
   margin-left: -160px;
 }
 
@@ -201,6 +202,7 @@ nav.nav__open .menu__item span {
   visibility: visible;
   opacity: 1;
   margin-left: 0;
+  padding-left: 20px;
 }
 
 nav.nav__open .menu__item svg {

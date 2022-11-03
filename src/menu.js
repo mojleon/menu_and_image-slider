@@ -32,7 +32,7 @@ export default class menu {
     const container = document.createElement("div");
     container.classList.add("logo");
     const logo = document.createElement("img");
-    logo.src = "../src/assets/images/logo.svg";
+    logo.src = "src/assets/logo.svg";
     logo.alt = "logo";
     container.appendChild(logo);
     return container;
@@ -42,7 +42,7 @@ export default class menu {
     const container = document.createElement("div");
     container.classList.add("profile-picture");
     const profilePicture = document.createElement("img");
-    profilePicture.src = "../src/assets/images/foto.jpg";
+    profilePicture.src = "src/assets/foto.jpg";
     profilePicture.alt = "profile picture";
     container.appendChild(profilePicture);
     container.innerHTML += "<div><h1>D Kalbic</h1><p>Web Developer</p></div>";
