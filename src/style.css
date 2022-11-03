@@ -17,7 +17,7 @@ body {
   height: 100vh;
   width: 100vw;
 
-  background: #333;
+  background: black;
   overflow: hidden;
 }
 
@@ -63,9 +63,7 @@ nav .menu__item a {
 }
 
 nav .menu__item span {
-  opacity: 0;
-  visibility: hidden;
-  transition: var(--navAnimation);
+  margin-left: -160px;
 }
 
 nav .menu__item:hover {
@@ -202,6 +200,7 @@ nav.nav__open .menu__item a {
 nav.nav__open .menu__item span {
   visibility: visible;
   opacity: 1;
+  margin-left: 0;
 }
 
 nav.nav__open .menu__item svg {
